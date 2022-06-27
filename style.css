@@ -1,0 +1,46 @@
+html {
+    cursor: pointer;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url('./gifs/starbkg2.gif');
+    color: #00ff00;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+h2 {
+    font-family: 'Brush Script MT', cursive;
+}
+
+img {
+    background-color: white;
+    margin: 2px;
+}
+
+.flex {
+    display: flex; 
+    align-items: center;
+}
+
+.dog h2 {
+    margin: 0 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.letter {
+    height: 50px;
+}
+
+.top {
+    justify-content: space-evenly;
+    width: 100%;
+}
