@@ -1,6 +1,7 @@
 html {
     cursor: pointer;
     height: 100vh;
+    font-size: 20px;
 }
 
 body {
@@ -22,7 +23,6 @@ h2 {
 }
 
 img {
-    background-color: white;
     margin: 2px;
 }
 
@@ -31,16 +31,51 @@ img {
     align-items: center;
 }
 
+.flex-vert {
+    display: flex;
+    flex-direction: column;
+}
+
+.transparent-bkg {
+    background-color: transparent;
+}
+
+.hide-on-mobile {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .hide-on-mobile {
+        display: inline-block;
+    }
+}
+
 .dog h2 {
     margin: 0 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 2.25rem;
+    font-family: "Luminari", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .letter {
     height: 50px;
 }
 
+.versai {
+    float: left;
+    margin-right: 20px;
+}
+
+.bastille-desc {
+    font-family: "Comic Sans MS";
+    max-width: 700px;
+    width: 80%;
+}
+
 .top {
     justify-content: space-evenly;
     width: 100%;
+}
+
+h1.invite {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
