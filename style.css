@@ -1,5 +1,5 @@
 html {
-    cursor: pointer;
+    cursor: url('./gifs/Guillotine_smiley.gif'), pointer;
     height: 100vh;
     font-size: 20px;
 }
@@ -29,11 +29,15 @@ img {
 .flex {
     display: flex; 
     align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .flex-vert {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .transparent-bkg {
@@ -48,6 +52,11 @@ img {
     .hide-on-mobile {
         display: inline-block;
     }
+}
+
+.top {
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .dog h2 {
@@ -71,11 +80,20 @@ img {
     width: 80%;
 }
 
-.top {
-    justify-content: space-evenly;
-    width: 100%;
+label, input {
+    height: 48px;
+    font-size: 48px;
 }
 
 h1.invite {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.rsvp-button {
+    margin: 40px;
+    font-size: 2rem;
+    background-color:tomato;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
 }

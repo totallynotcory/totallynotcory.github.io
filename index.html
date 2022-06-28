@@ -60,17 +60,25 @@
     <img src="./gifs/grimreaper.gif" />
 
     <h1 class="invite">We'll be celebrating on July 16th at my house.  Can you make it???</h1>
-    <form action="/" method="post">
-        <div class="flex">
-            <div class="oui">
-                <input type="radio" name="attend" id="oui" value="oui">
-                <label for="oui"><img src="./gifs/beretsmiley.gif" /> Oui! </label>
+    <br><br><br>
+    <form class="flex-vert" action="mailto:cpotwin+bastilleday@gmail.com" method="get" enctype="text/plain">
+        <div>
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
             </div>
-            <div class="non">
-                <input type="radio" name="attend" id="non" value="non">
-                <label for="non">😑 Non!</label>
+            <div class="flex">
+                <div class="oui flex">
+                    <input type="radio" name="attend" id="oui" value="oui">
+                    <label for="oui"><img src="./gifs/beretsmiley.gif" /> Oui! </label>
+                </div>
+                <div class="non flex">
+                    <input type="radio" name="attend" id="non" value="non">
+                    <label for="non">😑 Non!</label>
+                </div>
             </div>
         </div>
+        <button class="rsvp-button">RSVP</button>
     </form>        
 
     <br><br><br>
